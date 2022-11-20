@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div style="height: 40px; background-color: rgba(87, 87, 84, 0.911)">
+      <h2 style="color: aqua; padding-left: 10px; padding-top: 7px">Library</h2>
+    </div>
+
+    <div style="background-color: rgb(71, 67, 67)">
+      <button
+      id="books"
+       
+        style="
+          background-color: rgb(107, 103, 103);
+          color: aliceblue;
+          height: 40px;
+          width: 100px;
+          margin-left: 20px;
+        "
+      >
+        Books
+      </button>
+      <button
+      id="clients"
+        style="
+          background-color: rgb(107, 103, 103);
+          color: aliceblue;
+          height: 40px;
+          width: 100px;
+          margin: 0;
+          padding: 0;
+        "
+      >
+        Visitors
+      </button>
+      <button
+      id="cards"
+        style="
+          background-color: rgb(107, 103, 103);
+          color: aliceblue;
+          height: 40px;
+          width: 100px;
+          margin: 0;
+          padding: 0;
+        "
+      >
+        Cards
+      </button>
+      <button
+      id="statistic"
+        style="
+          background-color: rgb(107, 103, 103);
+          color: aliceblue;
+          height: 40px;
+          width: 100px;
+          margin: 0;
+          padding: 0;
+        "
+      >
+        Statistics
+      </button>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <h3 id="nameLabel" style="color: aqua">Empty</h3>
+      <button id="btnAdd" style="height: 30px; width: 200px">
+        New visitors
+      </button>
+    </div>
+
+    <div style="border-bottom: 1px solid rgb(68, 66, 66)"></div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          align-items: center;
+        "
+      >
+        <h2 style="margin-right: 5px">Sort by:</h2>
+        <select
+          class="sortSelect"
+          style="width: 120px; height: 25px; margin-right: 5px"
+        >
+          <option value="name">Name</option>
+          <option value="id">Id</option>
+          
+        </select>
+        <button class="btnSort" style="width: 100px; height: 26px">Sort</button>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          align-items: center;
+        "
+      >
+        <h2>Serch:</h2>
+        <input
+          class="searchInput"
+          style="width: 200px; height: 21px; margin-left: 5px"
+        />
+        <button
+          class="btnSearch"
+          style="width: 100px; height: 26px; margin-left: 5px"
+        >
+          Serch
+        </button>
+      </div>
+    </div>
+
+    <div
+      style="border-bottom: 1px solid rgb(68, 66, 66); margin-bottom: 10px"
+    ></div>
+
+    <div class="content" style="font-size: 24px"></div>
+
+    <script type="module" src="scripts/main.js">
+           
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "parcel index.html --open"
+  },
+  "keywords": [],
+  "author": "Vladimir Chersunov",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
